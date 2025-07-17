@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: PUBLIC
+    database: INTER_PROJECT2
+    schema: PUBLIC
+    tables:
+      - name: CALENDER
