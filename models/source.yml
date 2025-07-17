@@ -8,3 +8,5 @@ sources:
       - name: CALENDER
       - name: INVENTORY
       - name: PRODUCT 
+      - name: SALES 
+      - name: STORES 
