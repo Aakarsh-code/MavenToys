@@ -6,3 +6,8 @@ sources:
     schema: PUBLIC
     tables:
       - name: CALENDER
+      - name: INVENTORY
+      - name: PRODUCT 
+      - name: SALES 
+      - name: STORES
+      - name: DATA_DICTIONARY
