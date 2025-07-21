@@ -21,6 +21,7 @@ In the product table, I introduced a new column for profit, calculated as approp
 
 ## 5. Snapshot
 Added sanpshot to record the changes that will be happening in the intermediate layer tables for this I have created snaphots of only 4 major tables where chances of change is higher and need to be recorded incase it happens.
+Also Orchestrated the tables to run every 4 hours to check for changes.
 
 ## 6. Gold Layer (Business Marts)
 The Gold Layer represents the business-facing data marts, designed with business analysts in mind. In this layer, I created four specialized tables, each addressing different business problems or analysis requirements as I anticipated they would be needed.
