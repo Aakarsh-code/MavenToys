@@ -2,15 +2,15 @@
     {{
         config(
             target_schema='snapshots',
-            unique_key='store_id || \'-\' || product_id',
+            unique_key='STORE_ID || \'-\' || PRODUCT_ID',
             strategy='check',
-            check_cols=['stock_in_hand']
+            check_cols=['stock_on_hand']
         )
     }}
  
     select  
-        store_id,
-        product_id,
-        stock_in_hand
+        STORE_ID,
+        PRODUCT_ID,
+        stock_on_hand
     from {{ ref('filtered_inventory') }}
 {% endsnapshot %}
