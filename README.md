@@ -25,3 +25,17 @@ Also Orchestrated the tables to run every 4 hours to check for changes.
 
 ## 6. Gold Layer (Business Marts)
 The Gold Layer represents the business-facing data marts, designed with business analysts in mind. In this layer, I created four specialized tables, each addressing different business problems or analysis requirements as I anticipated they would be needed.
+The 4 tables are :
+    
+    name: montly_sales_per_store
+    description: Montly sales per store with the running sales.
+
+    name: products_offered_per_store
+    description: The number of products offered in every store.
+
+    name: store_sales_and_profit
+    description: Total sales in each store and the total profit made by that store.
+
+    name: top3_products_per_store
+    description: Total number of units sold of top three products in every store along with the profit gained.
+    
